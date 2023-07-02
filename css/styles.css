@@ -481,3 +481,15 @@ body {
     cursor: pointer;
     height: 350px;
 }
+/* Second product component div*/
+.box-a .one-img {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+.box-a .one-img img{
+    width: 385px;
+    height: 360px;
+    margin: 20px 30px;
+
+}
