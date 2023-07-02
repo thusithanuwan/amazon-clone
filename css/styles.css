@@ -400,13 +400,12 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
-    /*margin: 20px 20px;*/
     justify-content: space-between;
 }
 
 .product-comp .box {
     width: 445px;
-    height: 400px;
+    height: 430px;
     background-color: white;
 }
 
@@ -420,11 +419,10 @@ body {
 .box-a {
     width: 100%;
     height: 100%;
-    overflow: hidden;
     background-color: white;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
 }
 
 .box-a > div {
@@ -435,7 +433,12 @@ body {
     align-items: center;
     padding: 20px 30px;
 
-
+}
+.box-a > div:last-child{
+    padding: 0 0 0 30px ;
+}
+.box-a a{
+    font-size: 13px;
 }
 
 .box div img {
@@ -447,5 +450,4 @@ body {
 .box-a div span {
     display: block;
     font-size: 13px;
-    margin-left: 20px;
 }
