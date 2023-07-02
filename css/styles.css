@@ -272,3 +272,57 @@ body{
 .second-1 div:hover, .second-2 li:hover, .second-3 span:hover{
     border: 1px solid white;
 }
+/*Background image section*/
+.sec-1{
+    position: relative;
+    width: 100%;
+    padding: 0 280px;
+    height: 1190px;
+}
+.slide img{
+    width: 1360px;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 1360px;
+    height: auto;
+}
+.slider{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 560px;
+}
+.image-box{
+    display: flex;
+    position: absolute;
+    animation: carousel 15s alternate infinite;
+}
+@keyframes carousel {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0%;
+    }
+    24%{
+        left: -1360px;
+    }
+    50%{
+        left: -1360px;
+    }
+    54%{
+        left: calc(-1360*2px);
+    }
+    80%{
+        left: calc(-1360*2px);
+    }
+    84%{
+        left: calc(-1360*3px);
+    }
+    100%{
+        left: calc(-1360*3px);
+    }
+
+}
