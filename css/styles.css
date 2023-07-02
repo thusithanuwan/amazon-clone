@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
 }
-body{
+
+body {
     width: 100%;
     background-color: #eaeded;
 }
-.first{
+
+.first {
     width: 100%;
     height: 70px;
     background-color: #131a22;
@@ -17,62 +19,74 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.first img{
+
+.first img {
     width: 130px;
     margin: 0 10px;
     padding: 5px 10px;
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.first{
+
+.first {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
     color: white;
 }
-.flex span{
+
+.flex span {
     color: white;
 }
-.logo{
+
+.logo {
     flex: 0.15;
     margin-right: 10px;
     justify-content: space-between;
 }
-.map{
+
+.map {
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.map i{
+
+.map i {
     margin-top: 17px;
     padding-left: 5px;
     font-size: 17px;
 }
-.map div{
+
+.map div {
     padding: 5px;
     display: flex;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
 }
-.map div span:first-child{
+
+.map div span:first-child {
     font-weight: 400;
     font-size: 13px;
 }
-.map div span{
+
+.map div span {
     font-weight: bold;
 }
+
 /* Right container */
-.right{
+.right {
     justify-content: space-between;
     flex: 0.2;
     margin-right: 10px;
     align-items: center;
 }
-.input{
+
+.input {
     width: 100%;
     background-color: white;
     flex: 0.6;
@@ -83,47 +97,54 @@ body{
     overflow: hidden;
     justify-content: space-between;
 }
-.input input{
+
+.input input {
     outline: none;
     width: 90%;
     font-size: 16px;
     padding: 10px 2px;
     border: none;
 }
-.input .fa-search{
-    color: rgb(51,51,51);
+
+.input .fa-search {
+    color: rgb(51, 51, 51);
     padding: 10px 15px;
-    font-size: 20px ;
+    font-size: 20px;
     cursor: pointer;
     background-color: #febd69;
     border-radius: 0 5px 5px 0;
 }
-.input div{
+
+.input div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-right: 1px solid gray;
-    background-color: rgb(236,234,234);
+    background-color: rgb(236, 234, 234);
     padding: 6px 0;
 }
-.input div span{
+
+.input div span {
     border-radius: 5px 0 0 5px;
-    color: rgb(51,51,51) ;
+    color: rgb(51, 51, 51);
     padding: 6px 5px;
     font-size: 13px;
     cursor: pointer;
 }
-.input .fa-caret-down{
-    color: rgb(51,51,51);
+
+.input .fa-caret-down {
+    color: rgb(51, 51, 51);
     cursor: pointer;
     padding: 5px;
 }
-.lang i{
+
+.lang i {
     padding: 0;
     margin: 0;
     color: gray;
 }
-.lang{
+
+.lang {
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -131,14 +152,16 @@ body{
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.right img{
+
+.right img {
     width: 30px;
     height: 30px;
     padding: 10px 4px 4px 4px;
     margin: 0;
     cursor: pointer;
 }
-.sign{
+
+.sign {
     display: flex;
     flex-direction: column;
     padding: 3px 6px;
@@ -146,61 +169,74 @@ body{
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.sign span:first-child{
+
+.sign span:first-child {
     display: inline-block;
     width: 100%;
     font-size: 13px;
 }
-.sign div span:first-child{
+
+.sign div span:first-child {
     font-weight: bold;
 }
-.sign span:last-child{
+
+.sign span:last-child {
     font-weight: bold;
 }
-.flex .ac span{
+
+.flex .ac span {
     font-size: 15px;
     margin-right: 5px;
     font-weight: bold;
 }
-.fa-shopping-cart{
+
+.fa-shopping-cart {
     font-size: 30px;
 }
-.ca{
+
+.ca {
     font-size: 14px;
     font-weight: bold;
 }
-.cart{
+
+.cart {
     align-items: flex-end;
     position: relative;
     padding: 5px 10px;
     cursor: pointer;
-    border: 1px solid transparent ;
+    border: 1px solid transparent;
     border-radius: 3px;
 }
-.cart p{
+
+.cart p {
     position: absolute;
     font-weight: bolder;
     color: #b4542d;
     top: 7px;
     left: 23px;
 }
-.cart:hover{
+
+.cart:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.logo img:hover, .map:hover ,.lang:hover, .sign:hover{
+
+.logo img:hover, .map:hover, .lang:hover, .sign:hover {
     border: 1px solid white;
     border-radius: 3px;
 }
-.input .fa-search:hover{
+
+.input .fa-search:hover {
     background-color: #fdae46;
 }
-.input div:hover{
-    background-color: rgb(204,202,202);
+
+.input div:hover {
+    background-color: rgb(204, 202, 202);
     color: black;
 }
+
 /*Second top nav bar*/
-.second{
+.second {
     width: 100%;
     height: 42px;
     background-color: #232f3e;
@@ -209,22 +245,26 @@ body{
     color: white;
     overflow: hidden;
 }
-.second ul{
+
+.second ul {
     align-items: center;
     list-style: none;
     display: flex;
     justify-content: flex-start;
 }
-.second span{
+
+.second span {
     font-size: 15px;
 }
-.second-1 div i{
+
+.second-1 div i {
     font-size: 20px;
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.second li{
+
+.second li {
     padding: 5px 10px;
     font-size: 15px;
     margin: 7px 0;
@@ -232,97 +272,180 @@ body{
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.second-1{
+
+.second-1 {
     flex: 0.06;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.second-1 div{
+
+.second-1 div {
     display: flex;
     align-items: center;
     padding-left: 5px;
 }
-.second-2{
+
+.second-2 {
     display: flex;
     flex: 0.74;
     justify-content: flex-start;
 }
-.second-3{
+
+.second-3 {
     flex: 0.2;
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
     overflow: hidden;
 }
-.second-3 span{
+
+.second-3 span {
     padding: 5px 10px;
     border-radius: 3px;
 }
-.second-1 div span{
+
+.second-1 div span {
     padding: 5px 10px;
     cursor: pointer;
     border: 1px solid transparent;
     border-radius: 3px;
 }
-.second-1 div span{
+
+.second-1 div span {
     padding: 5px;
     cursor: pointer;
 }
-.second-1 div:hover, .second-2 li:hover, .second-3 span:hover{
+
+.second-1 div:hover, .second-2 li:hover, .second-3 span:hover {
     border: 1px solid white;
 }
+
 /*Background image section*/
-.sec-1{
+.sec-1 {
     position: relative;
     width: 100%;
-    padding: 0 280px;
+    /*padding: 0 280px;*/
     height: 1190px;
 }
-.slide img{
-    width: 1360px;
+
+.slide img {
+    width: 1920px;
     height: 100%;
 }
-.container{
+
+.container {
     position: relative;
-    width: 1360px;
+    width: 1920px;
     height: auto;
 }
-.slider{
+
+.slider {
     width: 100%;
     overflow: hidden;
     position: relative;
     height: 560px;
 }
-.image-box{
+
+.image-box {
     display: flex;
     position: absolute;
     animation: carousel 15s alternate infinite;
 }
+
 @keyframes carousel {
-    0%{
+    0% {
         left: 0;
     }
-    20%{
+    20% {
         left: 0%;
     }
-    24%{
-        left: -1360px;
+    24% {
+        left: -1920px;
     }
-    50%{
-        left: -1360px;
+    50% {
+        left: -1920px;
     }
-    54%{
-        left: calc(-1360*2px);
+    54% {
+        left: calc(-1920 * 2px);
     }
-    80%{
-        left: calc(-1360*2px);
+    80% {
+        left: calc(-1920 * 2px);
     }
-    84%{
-        left: calc(-1360*3px);
+    84% {
+        left: calc(-1920 * 3px);
     }
-    100%{
-        left: calc(-1360*3px);
+    100% {
+        left: calc(-1920 * 3px);
     }
+}
 
+/*Product container*/
+
+
+.container-1 {
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, transparent, #eaeded 30%);
+}
+
+.product-comp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /*margin: 20px 20px;*/
+    justify-content: space-between;
+}
+
+.product-comp .box {
+    width: 445px;
+    height: 400px;
+    background-color: white;
+}
+
+.box h3 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: rgb(43, 42, 42);
+}
+
+.box-a {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-a > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+
+}
+
+.box div img {
+    width: 180px;
+    height: 140px;
+    cursor: pointer;
+
+}
+.box-a div span {
+    display: block;
+    font-size: 13px;
+    margin-left: 20px;
 }
