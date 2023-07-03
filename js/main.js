@@ -77,6 +77,14 @@ sign.on('click', ()=>{
 
 })
 
+/* Back to top*/
+const backtop = $('.backtop');
 
+backtop.on('click', ()=>{
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    });
+});
 
 
