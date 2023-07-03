@@ -699,3 +699,52 @@ body {
 .fa-xmark.active{
     display: block;
 }
+
+/*Sign in tab*/
+.triangle{
+    position: absolute;
+    z-index: 101;
+    right: 188px;
+    top: 42px;
+    background-color: transparent;
+    width: 0px;
+    height: 0px;
+    /*display: none;*/
+    transition: all 2s;
+    border: 12px solid blue;
+    border-color: transparent transparent white transparent;
+}
+.hdn-sign{
+    position: absolute;
+    /*display: none;*/
+    z-index: 101;
+    transition: all 2s;
+    width: 500px;
+    height: 350px;
+    top: 65px;
+    right: 80px;
+    background-color: white;
+    border-radius: 5px;
+}
+.hdn-table{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.hdn-table h3{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.hdn-table li{
+    color: rgb(84,84,84);
+    font-size: 13px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.hdn-line{
+    width: 0.5px;
+    color: black;
+    background-color: rgb(190,190,190);
+    height: 300px;
+
+}
