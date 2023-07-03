@@ -30,5 +30,21 @@ leftBtnSec3.on('click', (eventData)=>{
     eventData.preventDefault();
 });
 
+const rightBtnSec4 = $('.r-btn.section-4');
+const leftBtnSec4 = $('.l-btn.section-4');
+
+
+
+rightBtnSec4.on('click', (eventData)=>{
+    const slideContent = $('.product-slide.section-4');
+    slideContent.scrollLeft(1920);
+    eventData.preventDefault();
+});
+leftBtnSec4.on('click', (eventData)=>{
+    const slideContent = $('.product-slide.section-4');
+    slideContent.scrollLeft(-1920);
+    eventData.preventDefault();
+});
+
 
 
