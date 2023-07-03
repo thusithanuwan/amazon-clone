@@ -64,5 +64,19 @@ cross.on('click',()=>{
     black.removeClass('active');
 })
 
+/*Sign in dropdown tab*/
+
+const sign = $('.ac');
+const triangle = $('.triangle');
+const signIn = $('.hdn-sign');
+
+sign.on('click', ()=>{
+    black.toggleClass('active-1');
+    signIn.toggleClass('active');
+    triangle.toggleClass('active');
+
+})
+
+
 
 
