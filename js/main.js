@@ -1,16 +1,34 @@
-const rightBtn = $('.r-btn');
-const leftBtn = $('.l-btn');
+const rightBtnSec2 = $('.r-btn.section-2');
+const leftBtnSec2 = $('.l-btn.section-2');
 
 
 
-rightBtn.on('click', (eventData)=>{
-    const slideContent = $('.product-slide');
+rightBtnSec2.on('click', (eventData)=>{
+    const slideContent = $('.product-slide.section-2');
     slideContent.scrollLeft(1920);
     eventData.preventDefault();
 });
-leftBtn.on('click', (eventData)=>{
-    const slideContent = $('.product-slide');
+leftBtnSec2.on('click', (eventData)=>{
+    const slideContent = $('.product-slide.section-2');
     slideContent.scrollLeft(-1920);
     eventData.preventDefault();
 });
+    
+const rightBtnSec3 = $('.r-btn.section-3');
+const leftBtnSec3 = $('.l-btn.section-3');
+
+
+
+rightBtnSec3.on('click', (eventData)=>{
+    const slideContent = $('.product-slide.section-3');
+    slideContent.scrollLeft(1920);
+    eventData.preventDefault();
+});
+leftBtnSec3.on('click', (eventData)=>{
+    const slideContent = $('.product-slide.section-3');
+    slideContent.scrollLeft(-1920);
+    eventData.preventDefault();
+});
+
+
 
