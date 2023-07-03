@@ -628,10 +628,11 @@ body {
     background-color: white;
     width: 380px;
     height: 100%;
+    transform: translate(-390px);
     transition: all 0.5s;
     height: 100%;
     position: absolute;
-    z-index: 101;
+    z-index: 102;
     overflow-y: scroll;
     box-shadow: 2px 2px 30px black;
 }
@@ -666,6 +667,7 @@ body {
 .fa-xmark{
     top: 20px;
     left: 390px;
+    display: none;
     position: absolute;
     font-size: 30px;
     z-index: 102;
@@ -682,10 +684,18 @@ body {
 }
 .black{
     position: absolute;
-    width: 100vw;
     height: 100vh;
-    left: 380px;
+    /*left: 380px;*/
     background-color: rgba(0,0,0,0.7);
+
+}
+.black.active{
+    width: 100vw;
     z-index: 101;
 }
-
+.sidebar.active{
+    transform: translate(0);
+}
+.fa-xmark.active{
+    display: block;
+}
