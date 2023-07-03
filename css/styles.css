@@ -381,8 +381,10 @@ body {
 }
 
 /*Product container*/
-
-
+.container-1.first-container{
+    position: absolute;
+    top: 350px;
+}
 .container-1 {
     position: absolute;
     z-index: 1;
@@ -505,7 +507,7 @@ body {
 
 /*Section 2*/
 .sec-2 {
-    margin-top: 300px;
+    margin-top: 920px;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
@@ -597,7 +599,7 @@ body {
 }
 /*Section 3*/
 .sec-3 {
-    margin-top: 20px;
+    margin-top: 40px;
     height: 400px;
     margin-left: 20px;
     margin-right: 20px;
@@ -605,3 +607,19 @@ body {
 .sec-3 .slide-sec h3 a{
     font-size: 13px;
 }
+/*Section 4*/
+.sec-4 {
+    margin-top: 40px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sec-4 .slide-sec h3 a{
+    font-size: 13px;
+}
+
+/*Third product container*/
+.container-1.third-container{
+    top: 20px;
+}
+
